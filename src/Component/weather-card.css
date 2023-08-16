@@ -1,0 +1,84 @@
+
+.card {
+    position: relative;
+    border: 1px solid black;
+    width: 20rem;
+    height: auto;
+    background-color: #f5f5f5;
+    box-shadow: 0px 0px 20px 0px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto;
+    height: 25rem;
+    z-index: -222;
+    border-radius: 2rem;
+  }
+  
+  .weather-img {
+    width: 20rem;
+    height: 10rem;
+    background-color: #ffffff1d;
+    opacity: 1;
+    filter: blur(1px);
+    border-radius: 2rem 2rem 0rem 0rem;
+  }
+
+  .temp {
+      position: absolute;
+      left: 0.5rem;
+      color: #f5f5f5;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 1.5rem;
+  }
+  
+  .details {
+    border-radius:0rem 0rem 2rem 2rem;
+    text-align: left;
+    
+    /* margin-top: 1rem; */
+    color: rgb(255, 255, 255);
+    overflow: scroll;
+    width: 100%;
+    background-color: #171e3e;
+    
+  }
+  .details::-webkit-scrollbar {
+    width: 0.5rem; /* Set the width of the scrollbar */
+  }
+  
+  .details::-webkit-scrollbar-track {
+    background: transparent; /* Set the track background color */
+  }
+  
+  .details::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0); /* Set the scrollbar thumb color */
+    border-radius: 0px; /* Set the radius of the thumb */
+  }
+  
+  .details p{
+    padding:  0rem 1rem;
+  }
+
+  .temp-det{
+    position: absolute;
+    top: 6rem;
+    left: 1rem;
+    color: #f5f5f5;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+  }
+
+  .temp-det p{
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .dark{
+    color: #040404!important;
+  }
+  .light{
+    color: #ffffff!important;
+  }
